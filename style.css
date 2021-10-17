@@ -1,71 +1,72 @@
-/* medium & large devices */
+/* desktop view */
 
 /* global */
 * {
-  background-color: black;
+  margin: 0;
   font-family: "Space Grotesk", sans-serif;
+  background-color: black;
+  font-size: 20px;
 }
 
-/* body */
-.main {
-  margin-top: 30px;
-}
-
-.material-icons.orange600 { color: #FB8C00; }
-
-/* nav bar */
+/* navigation bar */
 .nav-bar {
   overflow: hidden;
-  position: fixed;
-  width: 100%;
-  position: relative;
-  top: 15px;
-  font-size: 16px;
-  text-align: center;
-  font-weight: 100;
+  background-color: black;
+  padding-right: 16px;
+}
+
+.nav-bar-right {
+  float: right;
+}
+
+.nav-bar-text {
+  font-weight: bolder;
+  font-size: 20px !important;
+  padding-left: 24px !important;
+  text-shadow: 0 0 5px #ff0000;
 }
 
 .nav-bar a {
+  float: left;
+  color: #f2f2f2;
   text-align: center;
+  padding: 20px 16px;
   text-decoration: none;
-  color: white;
-  display: inline-block;
+  font-size: 17px;
 }
 
 .nav-bar a:hover {
-  color: #a3a5a4;
+  /* background-color: #ddd;
+  color: black; */
+  text-shadow: 0 0 5px #ff0000;
 }
 
-.nav-bar ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  align-items: stretch;
-  justify-content: space-around;
-  width: 100%;
+.inline-icon {
+  vertical-align: bottom;
 }
 
-.nav-bar li {
-  display: block;
-  flex: 0 1 auto;
-  list-style-type: none;
+.purple {
+  color: #aa01ff !important;
 }
 
-
-/* media queries */
-@media (max-width: 480px) {
-  /* nav bar */
+@media (max-width: 1000px) {
+  * {
+    font-size: 0;
+  }
   .nav-bar {
-    vertical-align: middle;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 100px;
+    padding-right: 0px;
   }
-  .nav-bar ul {
-    text-align: left;
-    width: 40%;
-    position: relative;
-    left: 30%;
+  /* remove name from header on mobile devices */
+  .nav-bar-text {
+    display: none;
   }
-  .nav-bar li a {
-    display: block;
-    text-decoration: none;
-  }
+  
 }

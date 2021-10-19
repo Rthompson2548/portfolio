@@ -62,19 +62,35 @@ i {
   font-size: 150px;
 }
 
-article {
-  display: inline-grid;
-  grid-template-rows: 100px 100px 100px;
-  grid-template-columns: 100px 100px 100px;
-  grid-gap: 3px;
+.toolkit-icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
 }
 
-section {
+.toolkit-icons > i {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid black;
-  font-size: 3em;
+  padding: 100px;
+  height: 150px;
+  flex: 1;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 1000px) {

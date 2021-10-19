@@ -7,18 +7,18 @@
   background-color: black;
 }
 
+h1 {
+  font-size: 150px;
+}
 
+/* headers */
 .header-text {
   font-size: 60px;
   width: 80%;
   padding: 150px 100px;
+  color: white;
 }
 
-.header-text-small {
-  font-size: 50px !important;
-  width: 80%;
-  padding: 70px 50px;
-}
 /* navigation bar */
 .nav-bar {
   overflow: hidden;
@@ -27,7 +27,6 @@
   padding-top: 20px;
   float: right;
 }
-
 
 .nav-bar-text {
   font-weight: bolder;
@@ -49,20 +48,36 @@
   text-shadow: 0 0 5px #ff0000;
 }
 
-.inline-icon {
-  vertical-align: bottom;
-}
-
+/* colors */
 .purple {
   color: #aa01ff !important;
 }
 
-@media (max-width: 1000px) {
-  /* to do: enable text to display when user hovers over icon */
+/* icons */
+.inline-icon {
+  vertical-align: bottom;
+}
 
-  * {
-    font-size: 0;
-  }
+i {
+  font-size: 150px;
+}
+
+article {
+  display: inline-grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 3px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  font-size: 3em;
+}
+
+@media (max-width: 1000px) {
   .nav-bar {
     height: 100%;
     width: 100px;
@@ -72,11 +87,6 @@
     right: 0;
     overflow-x: hidden;
     padding-top: 40px;
-    padding-right: 0px;
-  }
-  /* remove name from header on mobile devices */
-  .nav-bar-text {
-    display: none;
+    padding-right: 20px;
   }
 }
-

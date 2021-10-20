@@ -27,31 +27,26 @@ h1 {
 .nav-bar {
   overflow: hidden;
   background-color: black;
-  /* padding-right: 50px;
-  padding-top: 20px; */
   position: fixed;
   right: 0;
+  padding: 10px;
 }
 
 .nav-bar-text {
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 20px !important;
-  padding-left: 24px !important;
-  text-shadow: 0 0 5px #ff0000;
-  vertical-align: middle;
 }
 
 .nav-bar a {
-  float: left;
-  color: #f2f2f2;
+  justify-content: space-around;
   align-items: center;
-  padding: 20px 16px;
+  margin: 40px 20px;
   text-decoration: none;
   font-size: 32px;
 }
 
 .nav-bar a:hover {
-  text-shadow: 0 0 5px #ff0000;
+  text-shadow: 0 0 5px #aa01ff;
 }
 
 /* colors */
@@ -74,7 +69,13 @@ h1 {
 }
 
 i {
-  font-size: 150px;
+  font-size: 120px;
+  text-shadow: 0 0 5px #aa01ff;
+}
+
+/* toolkit */
+.toolkit {
+  width: 100%;
 }
 
 .toolkit-icons {
@@ -93,16 +94,11 @@ i {
   flex: 1;
 }
 
-.contact-icons i {
-  padding: 150px !important;
-}
-
 .contact-icon-row ul {
   position: relative;
   display: inline-flex;
   margin: 0;
   padding: 0;
-  width: 33%;
   text-align: left;
   float: left;
 }
@@ -113,13 +109,16 @@ i {
   padding: 0;
 }
 
-.contact-icon-row ul li span {
-  justify-content: space-around;
+.contact-icon-size {
+  width: 33%;
 }
 
-.contact-icon-size {
-  font-size: 200px;
-  width: 33%;
+.full-screen {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  justify-content: space-around;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -131,12 +130,6 @@ i {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 
 @media (max-width: 1000px) {
   .nav-bar {
@@ -147,7 +140,51 @@ i {
     top: 0;
     right: 0;
     overflow-x: hidden;
-    /* padding-top: 20px; */
-    padding-right: 20px;
+    padding-top: 20px;
+    padding-right: 15px;
+    margin-left: 30px;
+  }
+
+  .nav-bar a:hover {
+    text-shadow: none !important;
+  }
+
+  .contact-icon-size {
+    font-size: 100px;
+    width: 33%;
+    margin: 100px;
+  }
+
+  .contact-icon-row ul li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  .disappear {
+    color: black !important;
+  }
+
+  .inline-icon {
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+
+  .toolkit-icons {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  i {
+    font-size: 200px;
+    text-shadow: 0 0 5px #aa01ff;
+    width: 100%;
+  }
+
+  .contact-icon-size {
+    margin: 100px;
   }
 }

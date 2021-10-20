@@ -17,19 +17,20 @@ h1 {
 
 /* headers */
 .header-text {
-  font-size: 60px;
-  width: 80%;
-  padding: 150px 100px;
+  font-size: 150px;
+  width: 70%;
+  padding: 100px 0 20px 100px;
   color: white;
 }
 
 /* navigation bar */
 .nav-bar {
   overflow: hidden;
-  background-color: black;
+  background-color: transparent;
   position: fixed;
   right: 0;
-  padding: 10px;
+  top: 20px;
+  padding: 20px;
 }
 
 .nav-bar-text {
@@ -42,7 +43,7 @@ h1 {
   align-items: center;
   margin: 40px 20px;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 40px;
 }
 
 .nav-bar a:hover {
@@ -64,24 +65,26 @@ h1 {
 
 /* icons */
 .inline-icon {
-  vertical-align: bottom;
-  font-size: 32px;
+  vertical-align: middle;
+  font-size: 40px;
 }
 
 i {
-  font-size: 120px;
+  font-size: 175px;
   text-shadow: 0 0 5px #aa01ff;
+  margin-left: 20px;
 }
 
 /* toolkit */
 .toolkit {
   width: 100%;
+  margin: 50px;
 }
 
 .toolkit-icons {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
   height: auto;
@@ -99,18 +102,19 @@ i {
   display: inline-flex;
   margin: 0;
   padding: 0;
-  text-align: left;
-  float: left;
+  /* text-align: left;
+  float: left; */
 }
 
 .contact-icon-row ul li {
   list-style: none;
   display: inline-block;
-  padding: 0;
 }
 
 .contact-icon-size {
+  font-size: 200px;
   width: 33%;
+  margin: 150px;
 }
 
 .full-screen {
@@ -118,27 +122,17 @@ i {
   height: 100%;
   left: 0;
   top: 0;
-  justify-content: space-around;
+  justify-content: space-around !important;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .nav-bar {
     height: 100%;
     width: 100px;
     position: fixed;
     z-index: 1;
-    top: 0;
-    right: 0;
+    top: 50px;
+    right: 50px;
     overflow-x: hidden;
     padding-top: 20px;
     padding-right: 15px;
@@ -150,41 +144,55 @@ i {
   }
 
   .contact-icon-size {
-    font-size: 100px;
-    width: 33%;
-    margin: 100px;
+    font-size: 125px;
   }
 
   .contact-icon-row ul li {
     list-style: none;
     display: inline-block;
+    justify-content: center;
   }
 
   .disappear {
-    color: black !important;
+    color: transparent !important;
   }
 
   .inline-icon {
-    font-size: 30px;
-    padding: 10px;
-    margin-top: 50px;
+    font-size: 60px;
+    padding-right: 50px;
+    margin-top: 100px;
     margin-right: 100px;
+    vertical-align: middle;
+  }
+
+  .toolkit {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    grid-gap: 10px;
   }
 
   .toolkit-icons {
     display: flex;
-    width: 50%;
+    width: 100%;
     flex-wrap: wrap;
     height: auto;
+    text-align: center;
   }
 
   i {
     font-size: 200px;
     text-shadow: 0 0 5px #aa01ff;
-    width: 100%;
+    width: 33%;
   }
 
-  .contact-icon-size {
-    margin: 100px;
+  .header-text {
+    width: 60%;
+    font-size: 100px !important;
+  }
+
+  .contact-icon-row {
+    width: 100%;
+    justify-content: space-around;
   }
 }

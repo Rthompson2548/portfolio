@@ -7,6 +7,10 @@
   background-color: black;
 }
 
+body {
+  position: relative;
+}
+
 h1 {
   font-size: 150px;
 }
@@ -23,9 +27,10 @@ h1 {
 .nav-bar {
   overflow: hidden;
   background-color: black;
-  padding-right: 50px;
-  padding-top: 20px;
-  float: right;
+  /* padding-right: 50px;
+  padding-top: 20px; */
+  position: fixed;
+  right: 0;
 }
 
 .nav-bar-text {
@@ -33,15 +38,16 @@ h1 {
   font-size: 20px !important;
   padding-left: 24px !important;
   text-shadow: 0 0 5px #ff0000;
+  vertical-align: middle;
 }
 
 .nav-bar a {
   float: left;
   color: #f2f2f2;
-  text-align: center;
+  align-items: center;
   padding: 20px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 32px;
 }
 
 .nav-bar a:hover {
@@ -53,9 +59,18 @@ h1 {
   color: #aa01ff !important;
 }
 
+.white {
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
 /* icons */
 .inline-icon {
   vertical-align: bottom;
+  font-size: 32px;
 }
 
 i {
@@ -77,6 +92,36 @@ i {
   height: 150px;
   flex: 1;
 }
+
+.contact-icons i {
+  padding: 150px !important;
+}
+
+.contact-icon-row ul {
+  position: relative;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  width: 33%;
+  text-align: left;
+  float: left;
+}
+
+.contact-icon-row ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+
+.contact-icon-row ul li span {
+  justify-content: space-around;
+}
+
+.contact-icon-size {
+  font-size: 200px;
+  width: 33%;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -102,7 +147,7 @@ i {
     top: 0;
     right: 0;
     overflow-x: hidden;
-    padding-top: 40px;
+    /* padding-top: 20px; */
     padding-right: 20px;
   }
 }

@@ -44,7 +44,7 @@ p {
   background-color: black;
   position: fixed;
   justify-content: space-around;
-  padding: 40px;
+  padding: 30px;
   width: 100%;
 }
 
@@ -145,10 +145,11 @@ i {
     position: fixed;
     z-index: 1;
     top: 50px;
-    right: 50px;
+    right: 40px;
     overflow-x: hidden;
     padding-top: 20px;
     padding-right: 15px;
+    background-color: transparent;
   }
 
   .nav-bar a:hover {
@@ -203,8 +204,12 @@ i {
     font-size: 100px !important;
   }
 
+  .smaller-text {
+    width: 90%;
+  }
+
   .contact-icon-row {
-    width: 100%;
+    width: 90%;
     justify-content: space-around;
   }
 }

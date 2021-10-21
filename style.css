@@ -144,6 +144,7 @@ i {
   }
 
   i {
+    font-size: 300px;
     margin-left: 10px;
   }
 
@@ -232,7 +233,6 @@ i {
     margin-top: 40px;
     font-weight: 300;
   }
-
 }
 
 @media (max-width: 1200px) {
@@ -249,6 +249,7 @@ i {
     background-color: transparent;
   }
 
+
   .smaller-text {
     color: white !important;
     font-size: 70px !important;
@@ -262,8 +263,12 @@ i {
     font-size: 70px !important;
     padding: 0px;
   }
-}
 
+  
+  .toolkit-icons > i {
+    padding: 250px;
+  }
+}
 
 @media (max-width: 500px) {
   h2 {
@@ -323,5 +328,5 @@ i {
 
   .inline-icon {
     font-size: 75px;
-  };
+  }
 }

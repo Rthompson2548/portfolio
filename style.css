@@ -144,7 +144,7 @@ i {
   }
 
   i {
-    font-size: 300px;
+    font-size: 350px;
     margin-left: 10px;
   }
 
@@ -249,7 +249,6 @@ i {
     background-color: transparent;
   }
 
-
   .smaller-text {
     color: white !important;
     font-size: 70px !important;
@@ -264,7 +263,6 @@ i {
     padding: 0px;
   }
 
-  
   .toolkit-icons > i {
     padding: 250px;
   }
@@ -318,15 +316,27 @@ i {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    height: auto;
+    height: auto auto;
     text-align: center;
   }
 
   .toolkit-icons > i {
-    padding: 350px;
+    font-size: 450px;
+    padding: 300px;
   }
 
   .inline-icon {
     font-size: 75px;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  i {
+    font-size: 225px;
+  }
+
+  .toolkit-icons > i {
+    padding: 75px;
+    margin-left: 25px;
   }
 }

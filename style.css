@@ -21,6 +21,10 @@ p {
   margin-left: 10px;
 }
 
+.picture {
+  border-radius: 30px;
+}
+
 /* headers */
 .header-text {
   font-size: 120px;
@@ -36,6 +40,15 @@ p {
   margin-left: 100px;
   margin-top: 40px;
   font-weight: 300;
+}
+
+.project-text {
+  color: white !important;
+  display: flex;
+  margin-left: 250px;
+  margin-top: 120px;
+  margin-bottom: 75px;
+  font-size: 75px !important;
 }
 
 /* navigation bar */
@@ -154,7 +167,7 @@ i {
     position: fixed;
     z-index: 1;
     top: 50px;
-    right: 40px;
+    right: 0;
     overflow-x: hidden;
     padding-top: 20px;
     background-color: black !important;
@@ -219,6 +232,13 @@ i {
     padding: 175px 150px 20px 100px;
     color: white;
   }
+
+  
+.project-text {
+  color: white !important;
+  margin-left: 200px;
+  /* font-size: 80px !important; */
+}
 
   p {
     font-size: 50px !important;
@@ -296,6 +316,11 @@ i {
     font-size: 150px !important;
   }
 
+  .project-text {
+    color: white !important;
+    margin-left: 300px;
+  }
+
   .contact-icon-size {
     width: 80%;
     font-size: 200px;
@@ -340,3 +365,5 @@ i {
     margin-left: 25px;
   }
 }
+
+

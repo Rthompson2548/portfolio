@@ -16,6 +16,14 @@ h1 {
   line-height: 220px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 10px white;
+}
+
 p {
   font-size: 60px;
   margin-left: 10px;
@@ -38,11 +46,6 @@ p {
   padding: 175px 150px 20px 100px;
   color: white;
 }
-
-/* .image-container {
-  display: flex;
-  justify-content: center;
-} */
 
 .smaller-text {
   color: white !important;
@@ -78,7 +81,7 @@ p {
 }
 
 .nav-bar a {
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 40px 20px;
   text-decoration: none;
@@ -170,6 +173,10 @@ i {
   i {
     font-size: 350px;
     margin-left: 10px;
+  }
+
+  img {
+    vertical-align: middle;
   }
 
   .nav-bar {
@@ -324,11 +331,6 @@ i {
     width: 60%;
     margin-left: 100px;
     font-size: 150px !important;
-  }
-
-  .project-text {
-    color: white !important;
-    margin-left: 300px;
   }
 
   .contact-icon-size {

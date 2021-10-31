@@ -88,7 +88,6 @@ p {
 .img {
   display: block; /* use the available width of .img-box*/
   max-width: 100%;
-  /* margin: 30px; */
   border-radius: 30px;
 }
 
@@ -96,7 +95,9 @@ p {
   border-radius: 30px;
   width: 30%;
   margin-bottom: 50px;
-  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;;
 }
 
 .picture-2 {
@@ -332,6 +333,14 @@ i {
   p {
     font-size: 70px !important;
     padding: 0px;
+  }
+
+  .picture-2 {
+    width: 100%;
+  }
+
+  .picture2 img {
+    width: 100%
   }
 
   .toolkit-icons > i {

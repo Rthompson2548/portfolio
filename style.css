@@ -4,7 +4,7 @@
 * {
   margin: 0;
   background-color: #120d24;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 body {
@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  text-shadow: 0 0 10px white;
+  text-shadow: 0 0 5px white;
 }
 
 p {
@@ -60,6 +60,21 @@ p {
   font-size: 75px !important;
 }
 
+.click-here {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.click-here img {
+  transform: rotate(150deg);
+  margin-top: 40px;
+}
+
+.click-here h2 {
+  margin-left: 30px;
+}
+
 .img-row {
   justify-content: center;
   display: flex;
@@ -94,7 +109,7 @@ p {
 
 .nav-bar-text {
   font-weight: bold;
-  font-size: 20px !important;
+  font-size: 50px !important;
 }
 
 .nav-bar a {
@@ -103,11 +118,10 @@ p {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 .nav-bar a:hover {
-  text-shadow: 0 0 5px #aa01ff;
+  text-shadow: 0 0 1px #aa01ff;
 }
 
 /* colors */
@@ -244,7 +258,7 @@ p {
 }
 
 /* @media (max-width: 500px) { */
-  /* h2 {
+/* h2 {
     font-size: 450px !important;
   }
 
@@ -268,8 +282,8 @@ p {
   }
 
   /* contact */
-  /* .contact-icon-size { */
-    /* width: 80%;
+/* .contact-icon-size { */
+/* width: 80%;
     font-size: 200px;
   }
 
@@ -277,8 +291,8 @@ p {
     width: 100%;
   } */
 
-  /* toolkit */
-  /* .toolkit {
+/* toolkit */
+/* .toolkit {
     display: grid;
     grid-template-columns: auto;
     padding: 10px;
@@ -298,5 +312,3 @@ p {
     padding: 300px;
   } 
 } */
-
-

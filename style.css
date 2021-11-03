@@ -3,8 +3,8 @@
 /* global */
 * {
   margin: 0;
-  font-family: "Space Grotesk", sans-serif;
-  background-color: black;
+  background-color: #120d24;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 body {
@@ -60,15 +60,6 @@ p {
   font-size: 75px !important;
 }
 
-/* navigation bar */
-.nav-bar {
-  overflow: hidden;
-  /* background-color: black; */
-  width: 100%;
-  display: flex;
-  justify-content: end;
-}
-
 .img-row {
   justify-content: center;
   display: flex;
@@ -88,10 +79,17 @@ p {
   border-radius: 30px;
 }
 
-
 .image-container {
   text-align: center;
   margin-left: 40px;
+}
+
+/* navigation bar */
+.nav-bar {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
 }
 
 .nav-bar-text {
@@ -100,9 +98,12 @@ p {
 }
 
 .nav-bar a {
-  /* margin: 40px 20px; */
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 17px;
 }
 
 .nav-bar a:hover {
@@ -111,11 +112,11 @@ p {
 
 /* colors */
 .purple {
-  color: #aa01ff !important;
+  color: #802bb1 !important;
 }
 
 .white {
-  color: white;
+  color: #d1d7e0;
 }
 
 .red {
@@ -168,7 +169,6 @@ p {
   height: 100%;
   left: 0;
   top: 0;
-  /* justify-content: space-around !important; */
 }
 
 @media (max-width: 1200px) {
@@ -226,7 +226,7 @@ p {
   }
 
   /* toolkit */
-  .toolkit {
+  /* .toolkit {
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px;
@@ -240,18 +240,13 @@ p {
     height: auto;
     text-align: center;
     padding: 250px;
-  }
+  } */
 }
 
-
-@media (max-width: 500px) {
-  h2 {
+/* @media (max-width: 500px) { */
+  /* h2 {
     font-size: 450px !important;
   }
-
-  /* i {
-    font-size: 400px;
-  } */
 
   p {
     font-size: 75px !important;
@@ -272,16 +267,18 @@ p {
     font-size: 150px !important;
   }
 
-  .contact-icon-size {
-    width: 80%;
+  /* contact */
+  /* .contact-icon-size { */
+    /* width: 80%;
     font-size: 200px;
   }
 
   .contact-icon-row ul li {
     width: 100%;
-  }
+  } */
 
-  .toolkit {
+  /* toolkit */
+  /* .toolkit {
     display: grid;
     grid-template-columns: auto;
     padding: 10px;
@@ -299,19 +296,7 @@ p {
   .toolkit-icons > i {
     font-size: 450px;
     padding: 300px;
-  }
-
-  /* .inline-icon {
-    font-size: 75px;
-  } */
-}
-
-/* @media only screen and (min-width: 1201px) {
-  i {
-    font-size: 225px;
-  }
-  .toolkit-icons > i {
-    padding: 75px;
-    margin-left: 25px;
-  }
+  } 
 } */
+
+

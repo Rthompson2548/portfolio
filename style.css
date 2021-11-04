@@ -15,6 +15,10 @@ h1 {
   font-size: 150px;
 }
 
+h2 {
+  font-size: 100px !important;
+}
+
 a {
   text-decoration: none;
 }
@@ -155,7 +159,7 @@ a:hover {
 
 .toolkit-icons > i {
   display: flex;
-  padding: 75px;
+  padding: px;
   height: 150px;
 }
 
@@ -241,6 +245,10 @@ a:hover {
 
   p {
     font-size: 100px;
+  }
+
+  h2 {
+    font-size: 75px !important;
   }
 
   .smallest-text {

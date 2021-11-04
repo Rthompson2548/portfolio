@@ -237,9 +237,9 @@ a:hover {
 
 @media (max-width: 500px) {
  
-  h2 {
+  /* h2 {
     font-size: 75px !important;
-  }
+  } */
 
 
   .smallest-text {
@@ -247,12 +247,12 @@ a:hover {
   }
 
   /* headers */
-  .header-text {
+  /* .header-text {
     font-size: 200px;
     width: 100%;
     padding: 175px 100px 20px 150px;
     color: white;
-  }
+  } */
 
   .nav-bar-text {
     font-weight: bold;

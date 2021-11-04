@@ -160,8 +160,7 @@ a:hover {
 
 .toolkit-icons > i {
   display: flex;
-  padding: px;
-  height: 150px;
+  padding: 100px;
 }
 
 .contact-icon-row ul {
@@ -219,17 +218,6 @@ a:hover {
   }
 }
 
-@media (min-width: 2200px) {
-  .toolkit-icons {
-    font-size: 300px;
-    margin-left: 100px;
-  }
-
-  .toolkit-icons > i {
-    padding: 100px;
-    height: 500px;
-  }
-}
 
 @media (max-width: 500px) {
 
@@ -244,5 +232,9 @@ a:hover {
     text-align: center;
     padding-top: 50px;
     text-decoration: none;
+  }
+
+  .toolkit-icons {
+    font-size: 125px !important;
   }
 }

@@ -12,7 +12,9 @@ body {
 }
 
 h1 {
-  font-size: 150px;
+  width: 20% !important;
+  font-size: 100px !important;
+  line-height: 150px !important;
 }
 
 h2 {
@@ -188,12 +190,6 @@ a:hover {
 }
 
 @media (max-width: 1000px) {
-  h1 {
-    width: 20% !important;
-    font-size: 100px !important;
-    /* line-height: 125px !important; */
-  }
-
   p {
     font-size: 32px !important;
   }
@@ -241,18 +237,12 @@ a:hover {
 }
 
 @media (max-width: 500px) {
-
-
   p {
     font-size: 100px !important;
   }
 
   h2 {
     font-size: 75px !important;
-  }
-
-  h1 {
-    font-size: 200px !important;
   }
 
   .smallest-text {
@@ -279,5 +269,4 @@ a:hover {
     padding-top: 50px;
     text-decoration: none;
   }
-
 }

@@ -67,8 +67,8 @@ p {
 }
 
 .click-here img {
-  transform: rotate(140deg);
-  margin-top: 50px;
+  transform: rotate(100deg);
+  margin-top: 4px;
 }
 
 .click-here h2 {
@@ -89,16 +89,17 @@ p {
 }
 
 .img-container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .img-container img {
-  padding: 20px 15px;
-  width: auto;
-  height: 700px;
-  border-radius: 15px;
-  width: auto;
+  border-radius: 2%;
+  width: 40%;
+  height: 20%;
+  padding: 40px;
 }
+
 
 /* navigation bar */
 .nav-bar {
@@ -190,7 +191,7 @@ p {
 
   /* text */
   .header-text {
-    font-size: 120px;
+    font-size: 200px;
     width: 80%;
     padding: 175px 150px 20px 100px;
     color: white;

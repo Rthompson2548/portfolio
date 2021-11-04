@@ -13,12 +13,12 @@ body {
 
 h1 {
   width: 20% !important;
-  font-size: 100px !important;
-  line-height: 150px !important;
+  font-size: 125px !important;
+  /* line-height: 150px !important; */
 }
 
 h2 {
-  font-size: 100px !important;
+  font-size: 150px !important;
 }
 
 a {
@@ -27,8 +27,7 @@ a {
 
 p {
   padding: 0px;
-  font-size: small;
-  font-size: 50px !important;
+  font-size: 100px !important;
 }
 
 a:hover {
@@ -237,17 +236,11 @@ a:hover {
 }
 
 @media (max-width: 500px) {
-  p {
-    font-size: 100px !important;
-  }
-
+ 
   h2 {
     font-size: 75px !important;
   }
 
-  h1 {
-    font-size: 400px !important;
-  }
 
   .smallest-text {
     width: 100% !important;

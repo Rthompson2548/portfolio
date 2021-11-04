@@ -147,6 +147,7 @@ a:hover {
 /* toolkit */
 .toolkit {
   display: flex;
+  width: 100%;
 }
 
 .toolkit-icons {
@@ -160,7 +161,7 @@ a:hover {
 
 .toolkit-icons > i {
   display: flex;
-  padding: 100px;
+  padding: 100px 50px 100px 50px;
 }
 
 .contact-icon-row ul {

@@ -13,7 +13,6 @@ body {
 
 h1 {
   font-size: 150px;
-  line-height: 175px;
 }
 
 a {
@@ -38,8 +37,7 @@ a:hover {
 
 /* headers */
 .header-text {
-  font-size: 100px;
-  width: 80%;
+  width: 75%;
   padding: 175px 100px 20px 150px;
   color: white;
 }
@@ -239,8 +237,21 @@ a:hover {
 }
 
 @media (max-width: 500px) {
+
+  p {
+    font-size: 100px;
+  }
+
   .smallest-text {
     width: 100% !important;
+  }
+
+  /* headers */
+  .header-text {
+    font-size: 200px;
+    width: 100%;
+    padding: 175px 100px 20px 150px;
+    color: white;
   }
 
   .nav-bar-text {

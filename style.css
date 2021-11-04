@@ -25,7 +25,7 @@ a:hover {
 }
 
 p {
-  font-size: 45px !important;
+  font-size:100px !important;
   margin-left: 10px;
 }
 
@@ -37,16 +37,16 @@ p {
 
 /* headers */
 .header-text {
-  font-size: 120px;
+  font-size: 200px;
   width: 80%;
-  padding: 175px 150px 20px 100px;
+  padding: 175px 150px 20px 150px;
   color: white;
 }
 
 .smallest-text {
   color: white !important;
   width: 90% !important;
-  margin-left: 100px;
+  margin-left: 150px;
   margin-top: 40px;
   font-weight: 300;
 }
@@ -57,18 +57,18 @@ p {
   margin-left: 125px;
   margin-top: 120px;
   margin-bottom: 75px;
-  font-size: 75px !important;
+  font-size: 150px !important;
 }
 
 .click-here {
   display: flex;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 200px;
 }
 
 .click-here img {
   transform: rotate(100deg);
-  margin-top: 4px;
+  margin-top: 45px;
 }
 
 .click-here h2 {
@@ -95,8 +95,8 @@ p {
 
 .img-container img {
   border-radius: 2%;
-  width: 40%;
-  height: 20%;
+  width: 35%;
+  height: 15%;
   padding: 40px;
 }
 
@@ -160,10 +160,9 @@ p {
 }
 
 .contact-icon-row ul {
-  position: relative;
-  display: inline-flex;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding: 50px 200px;
 }
 
 .contact-icon-row ul li {
@@ -172,7 +171,7 @@ p {
 }
 
 .contact-icon-size {
-  font-size: 200px;
+  font-size: 450px !important;
   width: 33%;
   margin: 150px;
 }
@@ -220,19 +219,17 @@ p {
   /* contact */
   .contact-icon-row {
     width: 90%;
+    display: flex;
     justify-content: space-around;
   }
 
-  .contact-icon-size {
-    font-size: 150px;
-  }
 
   .contact-icon-row ul li {
     list-style: none;
-    display: grid;
     justify-content: center;
-    width: 30%;
   }
+
+  
 }
 
 @media (min-width: 2200px) {

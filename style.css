@@ -145,7 +145,7 @@ a:hover {
 }
 
 .toolkit-icons {
-  width: 100%;
+  width: 90%;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -155,7 +155,7 @@ a:hover {
 
 .toolkit-icons > i {
   display: flex;
-  padding: 100px;
+  padding: 75px;
   height: 150px;
 }
 
@@ -268,7 +268,4 @@ a:hover {
     text-decoration: none;
   }
 
-  .toolkit-icons {
-    font-size: 200px;
-  }
 }

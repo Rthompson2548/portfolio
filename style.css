@@ -220,6 +220,10 @@ a:hover {
 }
 
 @media (max-width: 500px) {
+  .project-text {
+    font-size: 75px !important;
+  }
+
   .nav-bar-text {
     font-weight: bold;
     font-size: 50px !important;

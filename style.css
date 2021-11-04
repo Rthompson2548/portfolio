@@ -245,6 +245,10 @@ a:hover {
     font-size: 75px !important;
   }
 
+  h1 {
+    font-size: 200px !important;
+  }
+
   .smallest-text {
     width: 100% !important;
   }

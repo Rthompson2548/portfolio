@@ -15,7 +15,6 @@ body {
 h1 {
   width: 20% !important;
   font-size: 125px !important;
-  /* line-height: 150px !important; */
 }
 
 h2 {
@@ -176,9 +175,9 @@ a:hover {
 }
 
 .contact-icon-size {
-  font-size: 450px !important;
-  width: 33%;
-  margin: 150px;
+  font-size: 200px !important;
+  width: 25%;
+  margin: 75px;
 }
 
 .full-screen {

@@ -166,7 +166,7 @@ a:hover {
 .contact-icon-row ul {
   display: flex;
   justify-content: center;
-  padding: 50px 200px;
+  padding: 40px 100px;
 }
 
 .contact-icon-row ul li {
@@ -175,9 +175,9 @@ a:hover {
 }
 
 .contact-icon-size {
-  font-size: 200px !important;
+  font-size: 150px !important;
   width: 25%;
-  margin: 75px;
+  margin: 50px;
 }
 
 .full-screen {
@@ -206,11 +206,11 @@ a:hover {
   }
 
   /* contact */
-  .contact-icon-row {
+  /* .contact-icon-row {
     width: 90%;
     display: flex;
     justify-content: space-around;
-  }
+  } */
 
   .contact-icon-row ul li {
     list-style: none;

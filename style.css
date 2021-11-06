@@ -17,13 +17,19 @@ h1 {
   font-size: 125px !important;
 }
 
-a {
-  text-decoration: none;
+img {
+  width: 75%;
+  border-radius: 5%;
+  margin-top: 175px;
 }
 
 p {
   padding: 0px;
   font-size: 50px !important;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:hover {
@@ -52,6 +58,18 @@ a:hover {
   font-weight: 200;
   font-size: 45px !important;
   line-height: 60px;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-left {
+  flex: 1;
+}
+
+.about-right {
+  flex: 1;
 }
 
 .project-text {

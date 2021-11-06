@@ -47,7 +47,7 @@ a:hover {
 .smallest-text {
   color: white !important;
   width: 60% !important;
-  margin-left: 150px;
+  margin-left: 150px !important;
   margin-top: 40px;
   font-weight: 200;
   font-size: 45px !important;
@@ -145,7 +145,7 @@ a:hover {
 /* toolkit */
 .toolkit {
   display: flex;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 .toolkit-icons {

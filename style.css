@@ -6,22 +6,13 @@
   background-color: #120d24;
   font-family: "Ubuntu", sans-serif;
 }
-/* 
-body {
-  position: relative;
-  padding: 50px;
-} */
 
 h1 {
   width: 20% !important;
   font-size: 125px !important;
 }
 
-img {
-  width: 75%;
-  border-radius: 5%;
-  margin-top: 175px;
-}
+
 
 p {
   padding: 0px;
@@ -62,6 +53,14 @@ a:hover {
 
 .about-container {
   display: flex;
+}
+
+.about-container img {
+  
+    width: 75%;
+    border-radius: 5%;
+    margin-top: 175px;
+  
 }
 
 .about-left {

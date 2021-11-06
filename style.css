@@ -41,6 +41,7 @@ a:hover {
   width: 75%;
   padding: 175px 100px 20px 150px;
   color: white;
+  font-size: 100px !important;
 }
 
 .smallest-text {
@@ -119,7 +120,7 @@ a:hover {
   float: right;
   display: block;
   text-align: center;
-  padding: 36px 65px 30px 0px;
+  padding: 36px 65px 30px 5px;
   text-decoration: none;
 }
 
@@ -190,7 +191,7 @@ a:hover {
 
   /* text */
   .header-text {
-    font-size: 75px;
+    /* font-size: 75px; */
     width: 80%;
     padding: 175px 150px 20px 100px;
     color: white;
@@ -200,13 +201,6 @@ a:hover {
     color: white !important;
     margin-left: 200px;
   }
-
-  /* contact */
-  /* .contact-icon-row {
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-  } */
 
   .contact-icon-row ul li {
     list-style: none;

@@ -17,10 +17,6 @@ h1 {
   font-size: 125px !important;
 }
 
-h2 {
-  font-size: 150px !important;
-}
-
 a {
   text-decoration: none;
 }
@@ -43,8 +39,9 @@ a:hover {
 /* headers */
 .header-text {
   width: 75%;
-  padding: 175px 100px 20px 150px;
+  padding: 175px 100px 20px 100px;
   color: white;
+  font-size: 75px;
 }
 
 .smallest-text {

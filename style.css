@@ -145,6 +145,7 @@ a:hover {
 /* toolkit */
 .toolkit {
   display: flex;
+  margin-left: 100px;
 }
 
 .toolkit-icons {

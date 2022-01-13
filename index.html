@@ -6,7 +6,7 @@
 	<!-- nav bar icons -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<!-- font -->
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 	<!-- toolkit icons -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
@@ -16,20 +16,19 @@
 	<title>Reilly Thompson</title>
 </head>
 <header>
-	<div class="nav-bar">
+	<!-- nav bar -->
+	<div class="nav-bar page">
 		<a href="#contact">
 			<span>
-				<i class="nav-bar-text material-icons purple">email</i>
+				<i class="nav-bar-icon material-icons">email</i>
 			</span>
 			<span class="purple">
 				<!-- Contact  -->
 			</span>
 		</a>
-
-
 		<a href="#toolkit">
 			<span>
-				<i class="nav-bar-text material-icons purple">handyman</i>
+				<i class="nav-bar-icon material-icons">handyman</i>
 			</span>
 			<span class="purple">
 				<!-- Toolkit  -->
@@ -37,7 +36,7 @@
 		</a>
 		<a href="#projects">
 			<span>
-				<i class="nav-bar-text material-icons purple">code</i>
+				<i class="nav-bar-icon material-icons">code</i>
 			</span>
 			<span class="purple">
 				<!-- Projects  -->
@@ -45,7 +44,7 @@
 		</a>
 		<a href="#about">
 			<span>
-				<i class="nav-bar-text material-icons purple">sentiment_very_satisfied</i>
+				<i class="nav-bar-icon material-icons">sentiment_very_satisfied</i>
 			</span>
 			<span class="purple">
 				<!-- About  -->
@@ -53,170 +52,63 @@
 		</a>
 		<a href="#home">
 			<span>
-				<i class="nav-bar-text material-icons purple">home</i>
+				<i class="nav-bar-icon material-icons">home</i>
 			</span>
 			<span class="purple">
 				<!-- Home  -->
 			</span>
 		</a>
-
 	</div>
-
-	<div class="about-container">
-		<div class="about-left header-text">
-			<p>Hello, I'm</p>
-			<h1>Reilly Thompson</h1>
-			<p>full-stack software engineer in PDX</p>
+	<!-- home page -->
+	<div class="home page">
+		<h1 class="home-page-name">Reilly Thompson</h1>
+		<p class="home-page-job-title">Full Stack Software Engineer</p>
+		<div class="">
+			<!-- <img src="/images/grad-photo-official.jpg" alt=""> -->
 		</div>
-
-		<div class="about-right">
-			<img src="/images/grad-photo-official.jpg" alt="">
-		</div>
-
 	</div>
-
 </header>
 
 <body>
 	<!-- about -->
-	<div name="about" id="about">
-		<h2 class="header-text purple">About</h2>
-		<p class="smallest-text"> Greetings! I am a full stack developer with a high proficiency in working with
-			JavaScript, Node.js, Express, React, REST APIs, PostgreSQL and Git. Welcome to my portfolio!
-		</p>
-		<!-- toolkit -->
-		<div name="toolkit" id="toolkit">
-			<h2 class="header-text purple">Toolkit</h2>
-			<div class="toolkit">
-				<!-- icon grid here -->
-				<div class="toolkit-icons full-screen"> <i class="devicon-html5-plain-wordmark colored"></i> <i
-						class="devicon-css3-plain-wordmark colored"></i> <i
-						class="devicon-vscode-plain-wordmark colored"></i> <i
-						class="devicon-javascript-plain colored"></i> </div>
-				<div class="toolkit-icons"> <i class="devicon-nodejs-plain-wordmark colored"></i> <i
-						class="devicon-jquery-plain-wordmark colored"></i> <i
-						class="devicon-postgresql-plain-wordmark colored"></i> <i
-						class="devicon-bootstrap-plain-wordmark purple"></i> </div>
-				<div class="toolkit-icons"> <i class="devicon-express-original white"></i> <i
-						class="devicon-react-original-wordmark colored"></i> <i
-						class="devicon-heroku-plain-wordmark purple"></i> <i class="devicon-git-plain-wordmark red"></i>
-				</div>
-			</div>
+	<div name="about" id="about" class="about page">
+		<h2 class="page-title">About</h2>
+		<div class="page-body">
+			<p> Greetings! I am a full stack developer with a high proficiency in working with
+				JavaScript, Node.js, Express, React, REST APIs, PostgreSQL and Git. Welcome to my portfolio!
+			</p>
 		</div>
-		<!-- projects -->
-		<div name="projects" id="projects">
-			<h2 class="header-text purple">Projects</h2>
-			<!-- title & icon container start -->
-			<div>
-				<a href="https://github.com/Rthompson2548/project-decoder-ring" target="_blank">
-					<div class="click-here">
-						<img
-							src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/60/ffffff/external-cursor-interface-kiranshastry-solid-kiranshastry.png" />
-						<h2 class="project-text white">
-							Decoder Ring
-						</h2>
-					</div>
-				</a>
-				<div class="img-container">
-					<img src="/images/final-decoder-ring-polybius-page.png" alt="library app home page" />
-					<img src="/images/final-decoder-ring-caesar-shift-page.png" alt="library app book stats page" />
-				</div>
-
-				<div class="img-container">
-					<img src="/images/final-decoder-ring-substitution-page.png" alt="library app account stats page" />
-				</div>
-			</div>
-			<div>
-				<a href="https://github.com/Rthompson2548/project-local-library" target="_blank">
-					<div class="click-here">
-						<img
-							src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/60/ffffff/external-cursor-interface-kiranshastry-solid-kiranshastry.png" />
-						<h2 class="project-text white">
-							Local Library App
-						</h2>
-					</div>
-				</a>
-				<div class="img-container">
-					<img src="/images/library-home-page-final.png" alt="library app home page" />
-					<img src="/images/library-book-stats-page-final.png" alt="library app book stats page" />
-				</div>
-
-				<div class="img-container">
-					<img src="/images/library-account-stats-page-fina;.png" alt="library app account stats page" />
-				</div>
-			</div>
-
-
-
-
-		</div>
-		<a href="https://github.com/Rthompson2548/project-pomodoro-timer" target="_blank">
-			<div class="click-here">
-				<img
-					src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/60/ffffff/external-cursor-interface-kiranshastry-solid-kiranshastry.png" />
-				<h2 class="project-text white">
-					Pomodoro Timer
-				</h2>
-			</div>
-		</a>
-		<div>
-			<div class="img-container">
-				<img src="/images/official-final-pomodoro-timer.png" alt="" />
-			</div>
-		</div>
-
-		<a href="https://github.com/Rthompson2548/project-flashcard-app" target="_blank">
-			<div class="click-here">
-				<img
-					src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/60/ffffff/external-cursor-interface-kiranshastry-solid-kiranshastry.png" />
-				<h2 class="project-text white">
-					Flashcard App
-				</h2>
-			</div>
-		</a>
-		<!-- flashcard app images -->
-		<div class="img-container">
-			<img src="/images/flashcard-app-home-page.png" alt="" />
-			<img src="/images/flashcard-app-study-deck-page.png" alt="" />
-		</div>
-		<div class="img-container">
-			<img src="/images/flashcard-app-edit-deck-page.png" alt="" />
-			<img src="/images/flashcard-app-create-deck-page.png" alt="" />
-		</div>
-
-		<div class="img-container">
-			<img src="/images/flashcard-app-add-card-page.png" alt="" />
-		</div>
-		<a href="https://github.com/Rthompson2548/final-capstone-restaurant-reservations" target="_blank">
-			<div class="click-here">
-				<img
-					src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/60/ffffff/external-cursor-interface-kiranshastry-solid-kiranshastry.png" />
-				<h2 class="project-text white">
-					Restaurant Reservation App
-				</h2>
-			</div>
-		</a>
 	</div>
-	<div class="img-container">
-		<img src="/images/restaurant-app-final-home-page.png" class="library" alt="" />
-		<img src="images/restaurant-app-final-new-res-page.png" class="library" alt="" />
+	<!-- toolkit -->
+	<div name="toolkit" id="toolkit" class="toolkit page">
+		<h2 class="page-title">Toolkit</h2>
+		<div class="page-body">
+			<!-- icon grid here -->
+			<div class="toolkit-icons-row">
+				<i class="toolkit-icon devicon-html5-plain-wordmark colored"></i>
+				<i class="toolkit-icon devicon-css3-plain-wordmark colored"></i>
+				<i class="toolkit-icon devicon-vscode-plain-wordmark colored"></i>
+				<i class="toolkit-icon devicon-javascript-plain colored"></i>
+			</div>
+			<div class="toolkit-icons-row">
+				<i class="toolkit-icon devicon-nodejs-plain-wordmark colored"></i>
+				<i class="toolkit-icon devicon-jquery-plain-wordmark colored"></i>
+				<i class="toolkit-icon devicon-postgresql-plain-wordmark colored"></i>
+				<i class="toolkit-icon devicon-bootstrap-plain-wordmark purple"></i>
+			</div>
+			<div class="toolkit-icons-row">
+				<i class="toolkit-icon devicon-express-original white"></i>
+				<i class="toolkit-icon devicon-react-original-wordmark colored"></i>
+				<i class="toolkit-icon devicon-heroku-plain-wordmark purple"></i>
+				<i class="toolkit-icon devicon-git-plain-wordmark red"></i>
+			</div>
+		</div>
 	</div>
-
-	<div class="img-container">
-		<img src="images/restaurant-app-final-new-table-page.png" alt="" />
-		<img src="images/restaurant-app-final-search-page.png" alt="" />
-	</div>
-
-
-	</div>
-
-
-	</div>
-
+	<!-- projects -->
 	<!-- contact -->
-	<div name="contact" id="contact" class="full-screen">
-		<h2 class="header-text purple">Contact</h2>
-		<div class="white contact-icon-row">
+	<div name="contact" id="contact" class="contact page">
+		<h2 class="page-title">Contact</h2>
+		<div class="page-body">
 			<ul>
 				<li> <span>
 						<a href="mailto: thompson.reilly@yahoo.com">

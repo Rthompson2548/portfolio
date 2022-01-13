@@ -3,253 +3,83 @@
 /* global */
 * {
   margin: 0;
-  background-color: #120d24;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  background-color: #25274d;
+  color: #d2d3e0;
 }
 
-h1 {
-  width: 20% !important;
-  font-size: 125px !important;
+.page {
+  padding: 10px 32px;
+  margin-bottom: 10px;
+  max-width: 100%;
 }
 
-p {
-  padding: 0px;
-  font-size: 50px !important;
+.page-title {
+  font-size: 32px;
+  margin-bottom: 16px;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-shadow: 0 0 5px white;
-}
-
-.smaller-text {
-  font-size: 60px !important;
-  margin: 40px;
-  text-align: center;
-}
-
-/* headers */
-.header-text {
-  width: 75%;
-  padding: 175px 100px 20px 150px;
-  color: white;
-  font-size: 100px !important;
-}
-
-.smallest-text {
-  color: white !important;
-  width: 60% !important;
-  margin-left: 150px !important;
-  margin-top: 40px;
-  font-weight: 200;
-  font-size: 45px !important;
-  line-height: 60px;
-}
-
-.about-container {
-  display: flex;
-}
-
-.about-container img {
-  width: 75%;
-  border-radius: 5%;
-  margin-top: 175px;
-}
-
-.about-left {
-  flex: 1;
-}
-
-.about-right {
-  flex: 1;
-}
-
-.project-text {
-  color: white !important;
-  display: flex;
-  margin-left: 125px;
-  margin-top: 120px;
-  margin-bottom: 75px;
-  font-size: 60px !important;
-}
-
-.click-here {
-  display: flex;
-  align-items: center;
-  margin-left: 200px;
-}
-
-.click-here img {
-  transform: rotate(100deg);
-  margin-top: 45px;
-}
-
-.click-here h2 {
-  margin-left: 30px;
-}
-
-.img-row {
-  justify-content: center;
-  display: flex;
-  margin-top: 20px;
-}
-
-.img-box {
-  width: 30%; /* 4 images. So 100/4 = 25%*/
-  min-height: 70px;
-  float: left; /* to place the images next to next*/
-  padding: 15px;
-}
-
-.img-container {
-  display: flex;
-  justify-content: center;
-}
-
-.img-container img {
-  border-radius: 2%;
-  width: 45%;
-  height: 15%;
-  padding: 10px;
-}
-
-/* navigation bar */
 .nav-bar {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  width: 100%;
-  /* margin-left: 20px; */
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%;
 }
 
-.nav-bar-text {
-  font-weight: bold;
-  font-size: 30px !important;
+.nav-bar-icon {
+  font-size: 18px;
+  padding: 5px 0 0 20px;
 }
 
-.nav-bar a {
-  float: right;
-  display: block;
-  text-align: center;
-  padding: 36px 65px 30px 5px;
-  text-decoration: none;
+.home-page-name {
+  font-size: 60px;
+  overflow-wrap: normal;
+  margin-bottom: 12px;
 }
 
-.nav-bar a:hover {
-  text-shadow: 0 0 1px #aa01ff;
+.home-page-job-title {
+  margin-left: 10px;
 }
 
-/* colors */
-.purple {
-  color: #802bb1 !important;
+.toolkit-icons-row {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.white {
-  color: #d1d7e0;
+.toolkit-icon {
+  font-size: 60px;
+  margin: 16px;
 }
 
-.red {
-  color: red;
-}
+/* mobile view */
+
+/* home */
+
+/* about */
 
 /* toolkit */
-.toolkit {
-  display: flex;
-  padding-left: 100px;
+
+/* projects */
+
+/* contact */
+
+/* desktop view */
+@media (min-width: 480px) {
+  /* home */
+
+  /* about */
+
+  /* toolkit */
+
+  /* projects */
+
+  /* contact */
 }
 
-.toolkit-icons {
-  width: 100%;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-  font-size: 220px;
-}
-
-.toolkit-icons > i {
-  display: flex;
-  padding: 50px;
-}
-
-.contact-icon-row ul {
-  display: flex;
-  justify-content: center;
-  padding: 40px 100px;
-}
-
-.contact-icon-row ul li {
-  list-style: none;
-  display: inline-block;
-}
-
-.contact-icon-size {
-  font-size: 150px !important;
-  width: 25%;
-  margin: 50px;
-}
-
-.full-screen {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-}
-
-@media (max-width: 1000px) {
-  p {
-    font-size: 32px !important;
-  }
-
-  /* text */
-  .header-text {
-    /* font-size: 75px; */
-    width: 80%;
-    padding: 175px 150px 20px 100px;
-    color: white;
-  }
-
-  .project-text {
-    color: white !important;
-    margin-left: 200px;
-  }
-
-  .contact-icon-row ul li {
-    list-style: none;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 500px) {
-  .project-text {
-    font-size: 75px !important;
-  }
-
-  .nav-bar-text {
-    font-weight: bold;
-    font-size: 50px !important;
-  }
-
-  .nav-bar a {
-    float: right;
-    display: block;
-    text-align: center;
-    padding-top: 50px;
-    text-decoration: none;
-  }
-
-  .toolkit-icons {
-    font-size: 300px !important;
-    margin: 100px 75px;
-  }
-
-  .img-container img {
-    border-radius: 2%;
-    width: 95%;
-    height: 15%;
-    padding: 5px;
-  }
-}
+/* 
+colors: 
+    #25274D
+    #464866
+    #AAABB8
+    #2E9CCA
+    #29648A
+*/

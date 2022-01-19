@@ -16,9 +16,9 @@
 }
 
 .page-title {
-  font-size: 28px;
+  font-size: 24px;
   margin-bottom: 16px;
-  font-weight: 600;
+  /* font-weight: 400; */
 }
 
 .nav-bar {
@@ -57,9 +57,20 @@
 }
 
 /* change name */
-.purple-icon {
+.white-icon {
   color: rgb(255, 255, 255);
+  margin-right: 14px;
+  text-decoration: none;
+  font-size: 20px;
 }
+
+.contact-icon {
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 50px;
+}
+
 .contact-icons {
   display: flex;
   justify-content: space-around;
@@ -86,17 +97,6 @@ img {
   width: 75%;
 }
 
-/* mobile view */
-
-/* home */
-
-/* about */
-
-/* toolkit */
-
-/* projects */
-
-/* contact */
 
 /* desktop view */
 @media (min-width: 480px) {
@@ -135,8 +135,8 @@ img {
 
   .page-title {
     font-size: 42px;
-    font-weight: 900;
     margin-bottom: 52px;
+    font-weight: 300;
   }
 
   .toolkit-icons-row {

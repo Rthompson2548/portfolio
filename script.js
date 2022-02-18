@@ -1,5 +1,4 @@
-const page = document.querySelectorAll("page");
-const navBar = document.getElementById("nav-bar");
+let Buttons = document.querySelectorAll(".selectSection button")
 
 const goToHomePage = document.getElementById("go-to-home");
 const home = document.getElementById("home");
@@ -17,10 +16,29 @@ const projects = document.getElementById("projects");
 const goToContactPage = document.getElementById("go-to-contact")
 const contact = document.getElementById("contact");
 
-goToHomePage.addEventListener("click", (event) => {
-    page.forEach((p) => {
-        if (!p.classList.contains("home")) {
-            p.classList.toggle("hidden");
+
+for (let button of Buttons) {
+    button.addEventListener("click", (event) => {
+        const eventTarget = event.target;
+
+        const activePage = document.querySelector(".active");
+
+        if (activePage) {
+            activePage.classList.remove("active");
+        }
+
+        eventTarget.classList.add("active");
+
+        let allContent = document.querySelectorAll(".content");
+
+        for (let content of allContent) {
+            if (content.getAttribute("data-number") === button.getAttribute("data-number")) {
+                content.style.display = "block";
+            }
+
+            else {
+                content.style.display = "none";
+            }
         }
     })
-})
+}

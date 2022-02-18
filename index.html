@@ -20,7 +20,7 @@
 </head>
 <header>
 	<!-- nav bar -->
-	<div id="nav-bar" class="nav-bar">
+	<div id="nav-bar" class="nav-bar selectSection">
 		<button type="button" data-number="1" id="go-to-home" class="nav-bar-item active" href="#home">
 			<span>
 				Home
@@ -54,7 +54,6 @@
 			</span>
 		</button>
 
-
 		<button type="button" data-number="5" id="go-to-contact" class="nav-bar-item" href="#contact">
 			<span>
 				Contact
@@ -63,151 +62,144 @@
 				<!-- Contact  -->
 			</span>
 		</button>
-
-	</div>
-
-	<!-- home page -->
-	<div class="home page" id="home page">
-		<h1 class="home-page-name">Reilly Thompson</h1>
-		<p class="home-page-job-title">Full Stack Software Engineer</p>
-		
 	</div>
 </header>
-
+	
 <body>
-	<!-- about -->
-	<div name="about" id="about page" class="about page">
-		<h2 class="page-title">About</h2>
-		<div >
-			<p class="page-text"> Greetings! I am a full stack developer with a high proficiency in working with
-				JavaScript, Node.js, Express, React, REST APIs, PostgreSQL and Git. Welcome to my portfolio!
-			</p>
+	<div class="contentSection">
+		<!-- home page -->
+		<div class="home page" data-number="1" id="home page">
+			<h1 class="home-page-name">Reilly Thompson</h1>
+			<p class="home-page-job-title">Full Stack Software Engineer</p>
 		</div>
+		<!-- about -->
+		<div name="about" data-number="2" id="about page" class="about page">
+			<h2 class="page-title">About</h2>
+			<div>
+				<p class="page-text"> Greetings! I am a full stack developer with a high proficiency in working with
+					JavaScript, Node.js, Express, React, REST APIs, PostgreSQL and Git. Welcome to my portfolio!
+				</p>
+			</div>
+			</div>
+			<!-- toolkit -->
+			<div name="toolkit" data-number="3" id="toolkit page" class="toolkit page">
+				<h2 class="page-title">Toolkit</h2>
+			<div>
+				<!-- icon grid here -->
+				<div class="toolkit-icons-row">
+					<i class="toolkit-icon devicon-html5-plain-wordmark colored"></i>
+					<i class="toolkit-icon devicon-css3-plain-wordmark colored"></i>
+					<i class="toolkit-icon devicon-vscode-plain-wordmark colored"></i>
+					<i class="toolkit-icon devicon-javascript-plain colored"></i>
+				</div>
+				<div class="toolkit-icons-row">
+					<i class="toolkit-icon devicon-nodejs-plain-wordmark colored"></i>
+					<i class="toolkit-icon devicon-jquery-plain-wordmark colored"></i>
+					<i class="toolkit-icon devicon-postgresql-plain-wordmark colored"></i>
+					<i class="toolkit-icon devicon-bootstrap-plain-wordmark "></i>
+				</div>
+				<div class="toolkit-icons-row">
+					<i class="toolkit-icon devicon-express-original white"></i>
+					<i class="toolkit-icon devicon-react-original-wordmark colored"></i>
+					<i class="toolkit-icon devicon-heroku-plain-wordmark "></i>
+					<i class="toolkit-icon devicon-git-plain-wordmark red"></i>
+				</div>
+			</div>
+			</div>
+			<!-- projects -->
+		<div class="page" data-number="4" id="projects page">
+			<h2 class="page-title">Projects</h2>
+			<div>
+				<h6 class="page-text"> Below are a few projects I have completed. Click the GitHub icons to see the
+					project repository and the browser icons to see them deployed!
+				</h6>
+			</div>
+			<div class="project-section">
+				<div class="project-title">
+					Library App
+					<a href="https://github.com/Rthompson2548/project-local-library" target="_blank">
+						<i class="white-icon fa fa-github" aria-hidden="true"></i>
+					</a>
+					<a href="https://project-local-library-one.vercel.app/" target="_blank">
+						<i class="white-icon fa fa-desktop" aria-hidden="true"></i>
+			
+					</a>
+				</div>
+				<img src="/images/local-library.PNG" alt="local library project image">
+			</div>
+			<div class="project-section">
+				<div class="project-title">
+					Restaurant Reservation System
+					<a href="https://github.com/Rthompson2548/final-capstone-restaurant-reservations" target="_blank">
+						<i class="white-icon fa fa-github" aria-hidden="true"></i>
+					</a>
+					<a href="https://reilly-frontend.herokuapp.com/dashboard" target="_blank">
+						<i class="white-icon fa fa-desktop" aria-hidden="true"></i>
+					</a>
+				</div>
+				<img src="/images/reservation-app.PNG" alt="reservation app project image">
+			</div>
+			
+			<div class="project-section">
+				<div class="project-title">
+					Decoder Ring
+					<a href="https://github.com/Rthompson2548/project-decoder-ring" target="_blank">
+						<i class="white-icon fa fa-github" aria-hidden="true"></i>
+					</a>
+					<a href="https://project-decoder-ring.vercel.app/" target="_blank">
+						<i class="white-icon fa fa-desktop" aria-hidden="true"></i>
+			
+					</a>
+				</div>
+				<img src="/images/decoder-ring.PNG" alt="decoder ring app project image">
+			</div>
+			
+			<div class="project-section">
+				<div class="project-title">
+					Vacation Rental App
+			
+					<a href="https://github.com/Rthompson2548/project-thinkful-bnb" target="_blank">
+						<i class="white-icon fa fa-github" aria-hidden="true"></i>
+					</a>
+					<a href="https://project-thinkful-bnb.vercel.app/" target="_blank">
+						<i class="white-icon fa fa-desktop" aria-hidden="true"></i>
+					</a>
+			
+				</div>
+				<img src="/images/vacation-finder.PNG" alt="rental app project image" <div>
+			</div>
+			</div>
+		<!-- contact -->
+		<div name="contact" data-number="5" id="contact page" class="contact page">
+			<h2 class="page-title">Contact</h2>
+			<div>
+				<ul class="contact-icons">
+					<li>
+						<span>
+							<a href="mailto: thompson.reilly@yahoo.com">
+								<i class="contact-icon fa fa-envelope" aria-hidden="true"></i>
+							</a>
+						</span>
+					</li>
+		
+					<li>
+						<span>
+							<a href="https://github.com/Rthompson2548" target="_blank">
+								<i class="contact-icon fa fa-github" aria-hidden="true"></i>
+							</a>
+						</span>
+					</li>
+					<li> <span>
+							<a href="https://www.linkedin.com/in/reillythompson/" target="_blank">
+								<i class="contact-icon fa fa-linkedin-square contact-icon-size white"></i>
+							</a>
+						</span>
+					</li>
+				</ul>
+			</div>
+			</div>
 	</div>
-	<!-- toolkit -->
-	<div name="toolkit" id="toolkit page" class="toolkit page">
-		<h2 class="page-title">Toolkit</h2>
-		<div >
-			<!-- icon grid here -->
-			<div class="toolkit-icons-row">
-				<i class="toolkit-icon devicon-html5-plain-wordmark colored"></i>
-				<i class="toolkit-icon devicon-css3-plain-wordmark colored"></i>
-				<i class="toolkit-icon devicon-vscode-plain-wordmark colored"></i>
-				<i class="toolkit-icon devicon-javascript-plain colored"></i>
-			</div>
-			<div class="toolkit-icons-row">
-				<i class="toolkit-icon devicon-nodejs-plain-wordmark colored"></i>
-				<i class="toolkit-icon devicon-jquery-plain-wordmark colored"></i>
-				<i class="toolkit-icon devicon-postgresql-plain-wordmark colored"></i>
-				<i class="toolkit-icon devicon-bootstrap-plain-wordmark "></i>
-			</div>
-			<div class="toolkit-icons-row">
-				<i class="toolkit-icon devicon-express-original white"></i>
-				<i class="toolkit-icon devicon-react-original-wordmark colored"></i>
-				<i class="toolkit-icon devicon-heroku-plain-wordmark "></i>
-				<i class="toolkit-icon devicon-git-plain-wordmark red"></i>
-			</div>
-		</div>
-	</div>
-	<!-- projects -->
 
-	<div class="page" id="projects page">
-		<h2 class="page-title">Projects</h2>
-		<div >
-			<h6 class="page-text"> Below are a few projects I have completed. Click the GitHub icons to see the
-				project repository and the browser icons to see them deployed!
-			</h6>
-		</div>
-		<div class="project-section">
-			<div class="project-title">
-				Library App
-				<a href="https://github.com/Rthompson2548/project-local-library" target="_blank">
-					<i class="white-icon fa fa-github" aria-hidden="true"></i>
-				</a>
-				<a href="https://project-local-library-one.vercel.app/" target="_blank">
-					<i class="white-icon fa fa-desktop" aria-hidden="true"></i>
-
-				</a>
-			</div>
-			<img src="/images/local-library.PNG" alt="local library project image">
-		</div>
-		<div class="project-section">
-			<div class="project-title">
-				Restaurant Reservation System
-				<a href="https://github.com/Rthompson2548/final-capstone-restaurant-reservations" target="_blank">
-					<i class="white-icon fa fa-github" aria-hidden="true"></i>
-				</a>
-				<a href="https://reilly-frontend.herokuapp.com/dashboard" target="_blank">
-					<i class="white-icon fa fa-desktop" aria-hidden="true"></i>
-				</a>
-			</div>
-			<img src="/images/reservation-app.PNG" alt="reservation app project image">
-		</div>
-
-		<div class="project-section">
-			<div class="project-title">
-				Decoder Ring
-				<a href="https://github.com/Rthompson2548/project-decoder-ring" target="_blank">
-					<i class="white-icon fa fa-github" aria-hidden="true"></i>
-				</a>
-				<a href="https://project-decoder-ring.vercel.app/" target="_blank">
-					<i class="white-icon fa fa-desktop" aria-hidden="true"></i>
-
-				</a>
-			</div>
-			<img src="/images/decoder-ring.PNG" alt="decoder ring app project image">
-		</div>
-
-		<div class="project-section">
-			<div class="project-title">
-				Vacation Rental App
-
-				<a href="https://github.com/Rthompson2548/project-thinkful-bnb" target="_blank">
-					<i class="white-icon fa fa-github" aria-hidden="true"></i>
-				</a>
-				<a href="https://project-thinkful-bnb.vercel.app/" target="_blank">
-					<i class="white-icon fa fa-desktop" aria-hidden="true"></i>
-				</a>
-
-			</div>
-			<img src="/images/vacation-finder.PNG" alt="rental app project image" <div>
-		</div>
-	</div>
-	</div>
-
-	</div>
-
-
-
-	<!-- contact -->
-	<div name="contact" id="contact page" class="contact page">
-		<h2 class="page-title">Contact</h2>
-		<div>
-			<ul class="contact-icons">
-				<li>
-					<span>
-						<a href="mailto: thompson.reilly@yahoo.com">
-							<i class="contact-icon fa fa-envelope" aria-hidden="true"></i>
-						</a>
-					</span>
-				</li>
-
-				<li>
-					<span>
-						<a href="https://github.com/Rthompson2548" target="_blank">
-							<i class="contact-icon fa fa-github" aria-hidden="true"></i>
-						</a>
-					</span>
-				</li>
-				<li> <span>
-						<a href="https://www.linkedin.com/in/reillythompson/" target="_blank">
-							<i class="contact-icon fa fa-linkedin-square contact-icon-size white"></i>
-						</a>
-					</span>
-				</li>
-			</ul>
-		</div>
-	</div>
 	<script src="script.js"></script>
 </body>
 

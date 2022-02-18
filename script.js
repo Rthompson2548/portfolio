@@ -28,6 +28,7 @@ for (let button of Buttons) {
         }
 
         eventTarget.classList.add("active");
+        
 
         let allContent = document.querySelectorAll(".content");
 

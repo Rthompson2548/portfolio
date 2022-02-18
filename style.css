@@ -12,7 +12,7 @@
   display: none;
 }
 
-.page {
+.content {
   padding: 10px 32px;
   margin-bottom: 10px;
   max-width: 100%;
@@ -101,6 +101,11 @@ img {
   width: 75%;
 }
 
+/** only displays home page when website is displayed */
+.content:not(:first-child) {
+    display: none;
+}
+
 
 /* desktop view */
 @media (min-width: 480px) {
@@ -131,7 +136,7 @@ img {
     margin-bottom: 100px;
   }
 
-  .page {
+  .contact {
     max-width: 80%;
     line-height: 150%;
     /* margin-bottom: 300px; */

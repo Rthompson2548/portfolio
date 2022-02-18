@@ -7,6 +7,10 @@
   max-width: 100%;
 }
 
+.active  {
+  background-color: #ff74ea !important;
+}
+
 .hidden {
   display: none;
 }

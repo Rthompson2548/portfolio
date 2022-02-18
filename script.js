@@ -1,5 +1,3 @@
-const { isFunctionTypeNode } = require("typescript");
-
 const page = document.querySelectorAll("page");
 const navBar = document.getElementById("nav-bar");
 
@@ -19,3 +17,10 @@ const projects = document.getElementById("projects");
 const goToContactPage = document.getElementById("go-to-contact")
 const contact = document.getElementById("contact");
 
+goToHomePage.addEventListener("click", (event) => {
+    page.forEach((p) => {
+        if (!p.classList.contains("home")) {
+            p.classList.toggle("hidden");
+        }
+    })
+})

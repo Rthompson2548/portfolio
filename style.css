@@ -8,10 +8,10 @@
 }
 
 .profile-picture {
+  margin-top: 50px;
   margin-right: 24px;
-  width: 250px;
+  width: 350px;
   height: auto;
-  margin-bottom: 24px;
 }
 
 .active  {
@@ -23,9 +23,8 @@
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  margin: 24px;
+  margin: 50px;
+  padding-top: 50px !important;
 }
 
 .page-title {
@@ -35,11 +34,11 @@
 
 .nav-bar {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end !important;
   position: fixed;
   top: 0 ;
-  right: 10px;
-  width: 300px;
+  left: 0;
+  width: 100%;
   z-index: 10;
 }
 
@@ -47,14 +46,15 @@
   border-radius: 25px;
   color: #fff !important;
   background-color: #d725bb;
-  border: none; 
-  margin: 12px 8px;
-  font-size: 12px; 
+  border: none;
+  padding: 2px 10px;
+  margin-top: 12px;
+  margin-right: 14px;
   font-weight: bold;
 }
 
 .home-page-name {
-  font-size: 42px;
+  font-size: 72px;
   font-weight: bold;
   overflow-wrap: normal;
   display: table-caption;
@@ -62,7 +62,7 @@
 
 .home {
   display: flex;
-  flex-direction: column;
+  /* justify-content: space-evenly; */
 }
 
 .home-mobile {
@@ -71,8 +71,8 @@
 }
 
 .home-page-description {
-  width: 250px;
-  font-size: 16px;
+  width: 50%;
+  font-size: 24px;
 }
 
 
@@ -130,12 +130,7 @@ img {
 
 
 /* desktop view */
-@media (min-width: 900px) {
-  .home {
-    display: flex;
-    flex-direction: row;
-  }
-
+@media (min-width: 480px) {
   .contact {
     max-width: 80%;
     line-height: 150%;

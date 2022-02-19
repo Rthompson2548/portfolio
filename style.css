@@ -20,7 +20,7 @@
 
 .hidden {
   display: none;
-}lp
+}
 
 .content {
   display: flex;
@@ -48,7 +48,7 @@
   color: #fff !important;
   background-color: #d725bb;
   border: none; 
-  margin: 1px 8px;
+  margin: 12px 8px;
   font-size: 12px; 
   font-weight: bold;
 }

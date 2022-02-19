@@ -16,8 +16,6 @@ const projects = document.getElementById("projects");
 const goToContactPage = document.getElementById("go-to-contact")
 const contact = document.getElementById("contact");
 
-const home = document.getElementById("home");
-
 
 for (let button of Buttons) {
     button.addEventListener("click", (event) => {
@@ -44,5 +42,3 @@ for (let button of Buttons) {
         }
     })
 }
-
-

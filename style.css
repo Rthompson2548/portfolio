@@ -7,13 +7,6 @@
   max-width: 100%;
 }
 
-.profile-picture {
-  margin-top: 50px;
-  margin-right: 24px;
-  width: 350px;
-  height: auto;
-}
-
 .active  {
   background-color: #ff74ea !important;
 }
@@ -39,7 +32,6 @@
   top: 0 ;
   left: 0;
   width: 100%;
-  z-index: 10;
 }
 
 .nav-bar-item {
@@ -57,21 +49,12 @@
   font-size: 72px;
   font-weight: bold;
   overflow-wrap: normal;
+  margin-bottom: 12px;
   display: table-caption;
 }
 
-.home {
-  display: flex;
-  /* justify-content: space-evenly; */
-}
-
-.home-mobile {
-  display: flex;
-  flex-direction: column;
-}
-
 .home-page-description {
-  width: 50%;
+  width: 75%;
   font-size: 24px;
 }
 

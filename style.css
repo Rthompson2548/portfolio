@@ -81,12 +81,14 @@ a {
 
 .toolkit-icons-row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin: 42px 10px 0 0;
 }
 
 .toolkit-icon {
   font-size: 56px;
-  margin: 20px 12px;
+  margin: 0 6px;
+  /* margin: 20px 12px; */
 }
 
 /* change name */

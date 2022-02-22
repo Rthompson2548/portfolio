@@ -25,13 +25,12 @@ a {
 }
 
 .content {
-  max-width: 100%;
-  margin-left: 36px;
+  margin: 10px 36px 0px 36px;
   padding-top: 24px;
 }
 
 .page-title {
-  font-size: 24px;
+  font-size: 46px;
   margin-bottom: 16px;
 }
 
@@ -61,12 +60,12 @@ a {
 }
 
 .profile-img {
-  width: 250px;
+  width: 225px;
   height: auto;
 }
 
 .home-page-name {
-  font-size: 52px;
+  font-size: 46px;
   font-weight: bold;
   overflow-wrap: normal;
   display: table-caption;
@@ -131,8 +130,9 @@ a {
 }
 
 .page-text {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 100;
+  line-height: 2rem;
 }
 
 /** only displays home page when website is displayed */

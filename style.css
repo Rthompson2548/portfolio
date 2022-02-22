@@ -58,25 +58,24 @@ a {
 
 .home {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .profile-img {
-  width: 350px;
+  width: 250px;
   height: auto;
-  margin: 50px 0px 0px 50px;
 }
 
 .home-page-name {
-  font-size: 72px;
+  font-size: 52px;
   font-weight: bold;
   overflow-wrap: normal;
-  margin-bottom: 12px;
   display: table-caption;
 }
 
 .home-page-description {
-  font-size: 24px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 

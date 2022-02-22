@@ -25,9 +25,9 @@ a {
 }
 
 .content {
-  width: 65%;
-  margin-left: 75px;
-  padding-top: 75px !important;
+  max-width: 100%;
+  margin-left: 36px;
+  padding-top: 24px;
 }
 
 .page-title {
@@ -37,11 +37,10 @@ a {
 
 .nav-bar {
   display: flex;
-  margin-left: 12px;
   position: fixed;
   top: 0;
   padding-bottom: 10px;
-  right: 0;
+  right: 10px;
   background-color: #fff;
 }
 
@@ -50,9 +49,9 @@ a {
   color: #fff !important;
   background-color: #d725bb;
   border: none;
-  padding: 2px 10px;
+  padding: 1px 6px;
   margin-top: 12px;
-  margin-right: 14px;
+  margin-right: 10px;
   font-weight: bold;
 }
 
@@ -71,11 +70,13 @@ a {
   font-weight: bold;
   overflow-wrap: normal;
   display: table-caption;
+  margin-bottom: 0px;
 }
 
 .home-page-description {
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 20px;
+  margin-right: 16px;
 }
 
 
@@ -134,10 +135,6 @@ a {
   font-weight: 100;
 }
 
-img {
-  /* width: 75%; */
-}
-
 /** only displays home page when website is displayed */
 .content:not(:first-child) {
     display: none;
@@ -166,6 +163,10 @@ img {
   .toolkit-icon {
     font-size: 100px;
     margin: 22px;
+  }
+
+  .home {
+    flex-direction: row;
   }
 
 

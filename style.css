@@ -65,7 +65,7 @@ a {
 }
 
 .home-page-name {
-  font-size: 46px;
+  font-size: 58px;
   font-weight: bold;
   overflow-wrap: normal;
   display: table-caption;
@@ -73,7 +73,7 @@ a {
 }
 
 .home-page-description {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 20px;
   margin-right: 16px;
 }
@@ -86,7 +86,7 @@ a {
 }
 
 .toolkit-icon {
-  font-size: 56px;
+  font-size: 65px;
   margin: 0 6px;
 }
 
@@ -145,6 +145,11 @@ a {
   /* margin: 0 75px 32px 0; */
 }
 
+.about-page {
+  display: flex;
+  flex-direction: column;
+}
+
 /** only displays home page when website is displayed */
 .content:not(:first-child) {
     display: none;
@@ -162,6 +167,10 @@ a {
     font-size: 42px;
     margin-bottom: 52px;
     font-weight: 300;
+  }
+
+  .home-page-name {
+    font-size: 82px;
   }
 
   .toolkit-icon {
@@ -191,9 +200,38 @@ a {
     margin: 0 75px 0 0;
   }
 
+.about-page {
+  display: flex;
+  flex-direction: row;
 }
 
-@media (min-width: 1000px) {
+.profile-img {
+  width: 850px;
+  height: auto;
+  margin-top: -100px;
+  margin-right: 75px;
+}
+
+}
+
+@media (min-width: 900px) {
+
+.about-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-img {
+  width: 1100px;
+  height: auto;
+  margin-top: -100px;
+  margin-right: 75px;
+}
+
+  .home-page-name {
+    font-size: 125px;
+  }
+
    .project-section img {
     width: 600px;
     height: auto;

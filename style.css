@@ -82,13 +82,12 @@ a {
 .toolkit-icons-row {
   display: flex;
   justify-content: space-evenly;
-  margin: 42px 10px 0 0;
+  margin: 72px 10px 0 0;
 }
 
 .toolkit-icon {
   font-size: 56px;
   margin: 0 6px;
-  /* margin: 20px 12px; */
 }
 
 /* change name */
@@ -104,9 +103,10 @@ a {
   color: rgb(0, 0, 0) !important; 
   text-decoration: none;
   font-size: 48px;
-   display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 18px;
   
 }
 
@@ -115,8 +115,7 @@ a {
 }
 
 .contact-icons {
-  list-style-type: none;
-  font-size: 50px;
+  font-size: 42px;
 }
 
 .project-title {
@@ -153,9 +152,6 @@ a {
     font-weight: 300;
   }
 
-  .toolkit-icons-row {
-    max-width: 100%;
-  } 
   .toolkit-icon {
     font-size: 100px;
     margin: 22px;

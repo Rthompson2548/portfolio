@@ -122,6 +122,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 62px 0;
 }
 
 .project-section img {
@@ -141,6 +142,7 @@ a {
   font-size: 16px;
   font-weight: 100;
   line-height: 2rem;
+  /* margin: 0 75px 32px 0; */
 }
 
 /** only displays home page when website is displayed */
@@ -185,5 +187,19 @@ a {
     margin-bottom: 0 !important;
   }
 
+  .page-text {
+    margin: 0 75px 0 0;
+  }
+
 }
 
+@media (min-width: 1000px) {
+   .project-section img {
+    width: 600px;
+    height: auto;
+  }
+
+  .page-text {
+    margin: 0 250px 20px 0;
+  }
+}

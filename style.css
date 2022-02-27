@@ -47,8 +47,9 @@ a {
 
 .nav-bar-item {
   border-radius: 25px;
-  color: #fff !important;
-  background-color: rgb(255, 8, 0) !important;
+  color: #000 !important;
+  /* background-color: rgb(255, 8, 0) !important; */
+  background-color: #fff;
   border: none;
   padding: 1px 8px;
   margin-top: 12px;
@@ -210,6 +211,11 @@ a {
 .about-page {
   display: flex;
   flex-direction: row;
+}
+
+.about-text {
+  font-size: 20px !important;
+  line-height: 2.25rem;
 }
 
 .profile-img {

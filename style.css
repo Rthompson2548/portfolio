@@ -17,7 +17,7 @@ a {
 }
 
 .active  {
-  background-color: #ff74ea !important;
+  /* background-color: rgb(110, 0, 0)ant; */
 }
 
 .hidden {
@@ -48,11 +48,11 @@ a {
 .nav-bar-item {
   border-radius: 25px;
   color: #fff !important;
-  background-color: #d725bb;
+  background-color: rgb(255, 8, 0) !important;
   border: none;
-  padding: 1px 6px;
+  padding: 1px 8px;
   margin-top: 12px;
-  margin-right: 10px;
+  margin-right: 16px;
   font-weight: bold;
 }
 
@@ -141,7 +141,7 @@ a {
 
 .project-title {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 28px;
   margin: 18px 0;
 }
 

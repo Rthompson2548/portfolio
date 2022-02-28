@@ -4,11 +4,13 @@
 * {
   font-family: 'Poppins', sans-serif;
   max-width: 100%;
+  background-color: rgb(1 13 26);
+  color: #fff;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 .header-container {
@@ -16,9 +18,6 @@ a {
   flex-direction: row;
 }
 
-.active  {
-  /* background-color: rgb(110, 0, 0)ant; */
-}
 
 .hidden {
   display: none;
@@ -30,7 +29,7 @@ a {
 }
 
 .page-title {
-  font-size: 46px;
+  font-size: 42px;
   margin-bottom: 16px;
 }
 
@@ -40,15 +39,12 @@ a {
   top: 0;
   padding-bottom: 10px;
   justify-content: space-around;
-  background-color: #fff;
   width: 100%;
 }
 
 
 .nav-bar-item {
-  color: #000 !important;
   font-size: 14px;
-  background-color: #fff;
   border: none;
   font-weight: bold;
   margin:10px 4px;
@@ -59,13 +55,30 @@ a {
   flex-direction: column;
 }
 
+.view-work-button {
+  padding: 8px 28px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  background-color: blueviolet;
+}
+
 .profile-img {
   width: 300px;
   height: auto;
 }
 
+.pronouns {
+  font-size: 22px;
+  letter-spacing: 1.6px;
+  color: blueviolet;
+  font-weight: bold;
+}
+
 .home-page-name {
-  font-size: 58px;
+  font-size: 56px;
   font-weight: bold;
   overflow-wrap: normal;
   display: table-caption;
@@ -73,7 +86,7 @@ a {
 }
 
 .home-page-description {
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 20px;
   margin-right: 16px;
 }
@@ -82,7 +95,7 @@ a {
 .toolkit-icons-row {
   display: flex;
   justify-content: space-evenly;
-  margin: 72px 10px 0 0;
+  margin: 72px 10px 40px 0;
 }
 
 .toolkit-icon {
@@ -100,7 +113,6 @@ a {
 
 
 .contact-icon {
-  color: rgb(0, 0, 0) !important; 
   text-decoration: none;
   font-size: 48px;
   display: flex;
@@ -116,6 +128,7 @@ a {
 
 .contact-icons {
   font-size: 42px;
+  margin-top: 25%;
 }
 
 .project-section {
@@ -131,7 +144,7 @@ a {
 }
 
 .project-section img {
-  box-shadow: rgba(45, 45, 58, 0.226) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(10, 10, 14, 0.24) 0px 16px 56px;
+  box-shadow: rgba(97, 97, 97, 0.055) 0px 10px 15px -3px, rgba(255, 255, 255, 0.068) 0px 4px 6px -2px;
   border-radius: 5px;
   width: 300px;
   height: auto;
@@ -144,7 +157,8 @@ a {
 }
 
 .page-text {
-  font-size: 16px;
+  font-size: 20px;
+  letter-spacing: 1.25px;
   font-weight: 100;
   line-height: 2rem;
   /* margin: 0 75px 32px 0; */
@@ -166,6 +180,20 @@ a {
   .contact {
     line-height: 150%;
     font-size: 30px;
+  }
+
+  .view-work-button {
+    margin-top: 30px;
+    padding: 16px 42px;
+    font-size: 24px;
+  }
+
+  .home-page-description {
+    font-size: 32px;
+  }
+
+  .pronouns {
+    font-size: 32px;
   }
 
   .nav-bar-item {
@@ -205,7 +233,7 @@ a {
 
   .contact-icons {
     font-size: 100px;
-    
+    margin-top: 10%
   }
 
   .contact {
@@ -250,7 +278,11 @@ a {
 }
 
   .home-page-name {
-    font-size: 125px;
+    font-size: 100px;
+  }
+
+  .nav-bar-item {
+    font-size: 18px;
   }
 
    .project-section img {

@@ -95,6 +95,10 @@ a {
   margin: 72px 10px 40px 0;
 }
 
+.toolkit-icons-row h2 {
+  /* font-size: 142px; */
+}
+
 .toolkit-icon {
   font-size: 65px;
   margin: 0 6px;

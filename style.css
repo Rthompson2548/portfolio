@@ -223,6 +223,10 @@ a {
   flex-direction: column;
 }
 
+.about-text {
+  font-size: 14px;
+  width: 300px;
+}
 /** only displays home page when website is displayed */
 .content:not(:first-child) {
     display: none;
@@ -236,12 +240,13 @@ a {
   }
 
   .home-page-description {
-    font-size: 16px;
+    font-size: 18px;
     width: 500px;
   }
 
   .home-page-name {
     width: 500px;
+    font-size: 36px;
   }
 
   .home-right {
@@ -249,6 +254,17 @@ a {
     font-size: 18px;
     margin-right: 32px;
     margin-bottom: 116px;
+  }
+
+  .about-text {
+    font-size: 16px;
+    width: 450px;
+  }
+}
+
+@media (min-width: 600px) {
+  .about-text {
+    width: 575px;
   }
 }
 
@@ -343,8 +359,9 @@ a {
 }
 
 .about-text {
-  font-size: 20px !important;
+  font-size: 22px;
   line-height: 2.25rem;
+  width: 750px;
 }
 
 .profile-img {
@@ -356,6 +373,8 @@ a {
 }
 
 }
+
+
 
 @media (min-width: 900px) {
 
@@ -403,5 +422,17 @@ a {
 
   .page-text {
     margin: 0 250px 20px 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-text {
+    width: 950px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-text {
+    width: 1175px;
   }
 }

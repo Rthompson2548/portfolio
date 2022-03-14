@@ -12,6 +12,20 @@ a {
   color: #000;
 }
 
+.fa-angle-down {
+  font-size: 58px;
+  font-weight: medium;
+  text-align: center !important;
+}
+
+.go-down-btn {
+  position: fixed;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
 .header-container {
   display: flex;
   flex-direction: row;
@@ -59,8 +73,8 @@ a {
   right: 0;
   bottom: 0;
   position: absolute;
-  width: 300px;
-  margin: 0 0 42px 0;
+  width: 250px;
+  margin: 0 12px 0 0;
   line-height: 2.5rem;
 }
 
@@ -73,7 +87,7 @@ a {
   left: 0;
   bottom: 0;
   position: absolute;
-  padding: 0 24px;
+  padding: 0 6px 0 24px;
 }
 
 .view-work-button {
@@ -109,9 +123,9 @@ a {
 }
 
 .home-page-description {
-  font-size: 22px;
-  margin-bottom: 20px;
-  margin-right: 16px;
+  font-size: 20px;
+  margin-bottom: 115px;
+  width: 500px;
 }
 
 
@@ -198,11 +212,22 @@ a {
 }
 
 
+@media (min-width: 500px) {
+  .nav-bar-item {
+    font-size: 14px;
+    margin-right: 18px;
+  }
+}
+
 /* desktop view */
 @media (min-width: 800px) {
   .contact {
     line-height: 150%;
     font-size: 30px;
+  }
+
+  .fa-angle-down {
+    font-size: 72px;
   }
 
   .view-work-button {
@@ -212,7 +237,10 @@ a {
   }
 
   .home-page-description {
-    font-size: 32px;
+    font-size: 38px;
+    letter-spacing: 4px;
+    margin-left: 72px;
+    margin-bottom: 72px;
   }
 
   .home-right {
@@ -227,7 +255,7 @@ a {
 
   .nav-bar-item {
     font-size: 16px;
-    padding-right: 28px;
+    padding-right: 32px;
   }
 
   .nav-bar {
@@ -243,7 +271,7 @@ a {
   }
 
   .home-page-name {
-    font-size: 82px;
+    font-size: 72px;
   }
 
   .toolkit-icon {
@@ -301,6 +329,10 @@ a {
   flex-direction: row;
 }
 
+.fa-angle-down {
+  font-size: 92px;
+}
+
 .profile-img {
   width: 500px;
   height: auto;
@@ -308,7 +340,16 @@ a {
 }
 
   .home-page-name {
-    font-size: 100px;
+    margin-left: 42px;
+    letter-spacing: 8px;
+    font-size: 82px;
+  }
+
+  .home-page-description {
+    margin-left: 100px;
+    font-size: 42px;
+    letter-spacing: 5px;
+    margin-bottom: 125px;
   }
 
   .home-right {

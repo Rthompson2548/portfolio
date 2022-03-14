@@ -136,6 +136,11 @@ a {
   width: 350px;
 }
 
+.toolkit-section-title {
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
 
 .toolkit-icons-row {
   display: flex;
@@ -184,7 +189,7 @@ a {
 }
 
 .project-section i {
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 24px;
 }
 
@@ -195,9 +200,25 @@ a {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
+.demo-code {
+  display: flex;
+  justify-content: center;
+}
+
+.demo-code-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.demo-code-item i {
+  font-size: 20px;
+}
+
 .project-title {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 18px;
   margin: 18px 0;
   /* text-shadow:
     0 0 7px #fff,
@@ -265,6 +286,10 @@ a {
 @media (min-width: 600px) {
   .about-text {
     width: 575px;
+  }
+
+  .toolkit-section-title {
+    font-size: 38px;
   }
 }
 
@@ -338,6 +363,10 @@ a {
     width: 400px;
     height: auto;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .project-title {
+    font-size: 32px;
   }
 
   .contact-icons {
@@ -428,6 +457,14 @@ a {
 @media (min-width: 1000px) {
   .about-text {
     width: 950px;
+  }
+
+  .toolkit-section-title {
+    font-size: 42px;
+  }
+
+  .page-title {
+    font-size: 60px;
   }
 }
 

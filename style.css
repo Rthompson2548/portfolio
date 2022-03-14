@@ -164,16 +164,16 @@ a {
 
 .contact-icon {
   text-decoration: none;
-  font-size: 48px;
+  font-size: 36px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 18px;
   
 }
 
 .contact-icon-text {
   font-size: 14px;
+  margin-top: 0px;
 }
 
 .contact-icons {
@@ -209,7 +209,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px 10px;
+  margin: 3px 10px;
 }
 
 .demo-code-item i {
@@ -296,7 +296,6 @@ a {
 /* desktop view */
 @media (min-width: 800px) {
   .contact {
-    line-height: 150%;
     font-size: 30px;
   }
 
@@ -340,7 +339,7 @@ a {
 
   .page-title {
     font-size: 42px;
-    margin-bottom: 52px;
+    margin-bottom: 24px;
     font-weight: 300;
     margin-right: 12px;
   }
@@ -450,7 +449,7 @@ a {
   }
 
   .page-text {
-    margin: 0 250px 20px 0;
+    margin: 0 250px 10px 0;
   }
 }
 
@@ -464,7 +463,7 @@ a {
   }
 
   .page-title {
-    font-size: 60px;
+    font-size: 44px;
   }
 }
 

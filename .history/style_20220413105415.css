@@ -134,6 +134,7 @@ a {
 
 .toolkit-section-title {
   font-size: 28px;
+  /* letter-spacing: 2px; */
   font-weight: normal;
 }
 
@@ -144,8 +145,8 @@ a {
 }
 
 .toolkit-icon {
-  font-size: 65px !important;
-  margin: 0 6px !important;
+  font-size: 65px;
+  margin: 0 6px;
 }
 
 /* change name */
@@ -332,8 +333,8 @@ a {
   }
 
   .toolkit-icon {
-    font-size: 100px !important;
-    margin: 22px !important;
+    font-size: 100px;
+    margin: 22px;
   }
 
   .home {

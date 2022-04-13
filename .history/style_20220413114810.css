@@ -333,7 +333,7 @@ a {
 
   .toolkit-icon {
     font-size: 100px !important;
-    margin: 22px !important;
+    margin: 22px;
   }
 
   .home {

@@ -7,6 +7,14 @@
   letter-spacing: 0.5px;
 }
 
+.profile-image {
+  width: 500px; 
+  height: 500px; 
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 50px;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -245,7 +253,7 @@ a {
   }
 
   .home-page-description {
-    font-size: 18px;
+    font-size: 28px;
     width: 500px;
   }
 
@@ -409,7 +417,7 @@ a {
   }
 
   .home-page-description {
-    font-size: 28px;
+    font-size: 38px;
     width: 700px;
   }
 
@@ -436,6 +444,10 @@ a {
 @media (min-width: 1000px) {
   .about-text {
     width: 950px;
+  }
+
+  .about-text a {
+    text-decoration: underline;
   }
 
   .toolkit-section-title {
